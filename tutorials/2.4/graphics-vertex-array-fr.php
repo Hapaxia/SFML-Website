@@ -151,7 +151,7 @@ window.draw(vertices, 2, sf::Lines);
             </td>
         </tr>
         <tr>
-            <td><code>sf::LinesStrip</code></td>
+            <td><code>sf::LineStrip</code></td>
             <td>
                 Un ensemble de lignes connectées. Le second vertex d'une ligne est utilisé comme premier vertex de la suivante.
             </td>
@@ -169,7 +169,7 @@ window.draw(vertices, 2, sf::Lines);
             </td>
         </tr>
         <tr>
-            <td><code>sf::TrianglesStrip</code></td>
+            <td><code>sf::TriangleStrip</code></td>
             <td>
                 Un ensemble de triangles connectés par un côté. Chaque triangle partage ses deux derniers vertex avec le suivant.
             </td>
@@ -178,7 +178,7 @@ window.draw(vertices, 2, sf::Lines);
             </td>
         </tr>
         <tr>
-            <td><code>sf::TrianglesFan</code></td>
+            <td><code>sf::TriangleFan</code></td>
             <td>
                 Un ensemble de triangles connectés à un point central (en éventail). Le tout premier vertex est le centre, puis chaque nouveau vertex définit un nouveau
                 triangle, combiné au centre et au vertex suivant.
