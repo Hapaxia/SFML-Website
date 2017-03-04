@@ -142,7 +142,7 @@ window.draw(vertices, 2, sf::Lines);
             </td>
         </tr>
         <tr>
-            <td><code>sf::LinesStrip</code></td>
+            <td><code>sf::LineStrip</code></td>
             <td>
                 A set of connected lines. The end vertex of one line is used as the start vertex of the next one.
             </td>
@@ -160,7 +160,7 @@ window.draw(vertices, 2, sf::Lines);
             </td>
         </tr>
         <tr>
-            <td><code>sf::TrianglesStrip</code></td>
+            <td><code>sf::TriangleStrip</code></td>
             <td>
                 A set of connected triangles. Each triangle shares its two last vertices with the next one.
             </td>
@@ -169,7 +169,7 @@ window.draw(vertices, 2, sf::Lines);
             </td>
         </tr>
         <tr>
-            <td><code>sf::TrianglesFan</code></td>
+            <td><code>sf::TriangleFan</code></td>
             <td>
                 A set of triangles connected to a central point. The first vertex is the center, then each new vertex defines a new triangle, using the center
                 and the previous vertex.
